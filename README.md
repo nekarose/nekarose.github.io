@@ -11,6 +11,9 @@
 
 ## 앱별 페이지
 
+- `jigeum-caffeine/support.html` — 지금, 카페인 지원 페이지.
+  App Store Connect의 '지원 URL'과 Play 등록정보가 여기를 가리킨다. 개인정보처리방침은
+  지원 정보가 아니므로 이 둘을 같은 주소로 두면 안 된다(가이드라인 1.5).
 - `jigeum-caffeine/privacy.html` — 지금, 카페인 개인정보처리방침.
   원본은 `nekarose/jigeum-caffeine-ops` 의 `docs/privacy_policy.md` 이고, 이 HTML은
   거기서 변환해 둔 사본이다. 방침을 고칠 때는 원본을 먼저 고치고 이쪽에 반영할 것.
