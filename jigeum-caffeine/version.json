@@ -1,0 +1,11 @@
+{
+  "_comment": "지금, 카페인 업데이트 안내용. 스토어에 실제로 풀린 뒤에 올릴 것 — 미리 올리면 아직 받을 수 없는 버전으로 안내하게 된다. 버전은 빌드 번호 없이 x.y.z 만 적는다(앱이 점으로 쪼개 숫자 비교한다).",
+  "ios": {
+    "latest_version": "1.5.1",
+    "store_url": "https://apps.apple.com/kr/app/id6785396543"
+  },
+  "android": {
+    "latest_version": "1.5.1",
+    "store_url": "https://play.google.com/store/apps/details?id=com.hyein.jigeum_caffeine"
+  }
+}

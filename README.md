@@ -11,6 +11,10 @@
 
 ## 앱별 페이지
 
+- `jigeum-caffeine/version.json` — 지금, 카페인 업데이트 안내용 최신 버전.
+  앱이 실행 시 이 파일을 읽어 설치 버전과 비교한다. 원래 Supabase 테이블
+  (`app_version_config`)에 있었는데, 읽기 전용 정적 데이터에 DB와 service_role 키가
+  필요한 게 과해서 옮겼다. 스토어에 실제로 풀린 뒤에 올릴 것.
 - `jigeum-caffeine/support.html` — 지금, 카페인 지원 페이지.
   App Store Connect의 '지원 URL'과 Play 등록정보가 여기를 가리킨다. 개인정보처리방침은
   지원 정보가 아니므로 이 둘을 같은 주소로 두면 안 된다(가이드라인 1.5).
