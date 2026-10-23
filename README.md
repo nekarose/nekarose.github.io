@@ -9,6 +9,12 @@
 
 원본은 앱 저장소의 `store/app-ads.txt` 에 함께 관리된다.
 
+## 첫 화면
+
+- `index.html` — now,labs 앱 링크 모음. 인스타·쓰레드 프로필 링크가 여기를 가리킨다.
+  아이콘은 `assets/icons/`(App Store 256px), 로고는 `assets/nowlabs.png`. Play 버튼은 공개 Play 페이지가 있는 앱에만 단다.
+  원본은 `~/project/promotion`에서 관리한다.
+
 ## 앱별 페이지
 
 - `jigeum-caffeine/version.json` — 지금, 카페인 업데이트 안내용 최신 버전.

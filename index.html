@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>now,labs 앱</title>
+<meta name="description" content="now,labs가 만든 앱 모음 — 덤보 시리즈 게임과 지금 시리즈 생활 앱">
+<meta property="og:title" content="now,labs 앱">
+<meta property="og:description" content="덤보 시리즈 게임과 지금 시리즈 생활 앱을 한곳에서">
+<meta property="og:image" content="https://nekarose.github.io/assets/icons/dumbodrop.png">
+<link rel="icon" href="assets/icons/dumbodrop.png">
+<style>
+  :root { --ink: #14213D; --sub: #5B6477; --line: #E4E8F0; --bg: #F6F8FC; --card: #FFFFFF; --sky: #00B4F0; --navy: #0B2A66; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink: #EEF2F8; --sub: #A3ACBD; --line: #2A3347; --bg: #0F1522; --card: #171F30; --navy: #9DB8F0; }
+    .logo { filter: brightness(0) invert(1); }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Noto Sans KR", sans-serif; }
+  main { max-width: 560px; margin: 0 auto; padding: 32px 16px 48px; }
+  header { text-align: center; margin-bottom: 28px; }
+  .logo { width: 150px; height: auto; }
+  header p { margin: 10px 0 0; color: var(--sub); font-size: 15px; }
+  h2 { font-size: 14px; color: var(--sub); font-weight: 600; margin: 28px 4px 10px; letter-spacing: .02em; }
+  .app { display: flex; gap: 14px; align-items: flex-start; background: var(--card); border: 1px solid var(--line);
+    border-radius: 18px; padding: 14px; margin-bottom: 10px; }
+  .app img { width: 64px; height: 64px; border-radius: 15px; flex: none; }
+  .app h3 { margin: 2px 0 4px; font-size: 17px; }
+  .app p { margin: 0 0 10px; color: var(--sub); font-size: 14px; line-height: 1.45; }
+  .btns { display: flex; flex-wrap: wrap; gap: 8px; }
+  .btns a { display: inline-block; padding: 8px 13px; border-radius: 999px; font-size: 13.5px; font-weight: 600;
+    text-decoration: none; color: #fff; background: var(--navy); }
+  .btns a.play { background: transparent; color: var(--navy); border: 1.5px solid var(--navy); }
+  .btns a:focus-visible { outline: 3px solid var(--sky); outline-offset: 2px; }
+  footer { text-align: center; color: var(--sub); font-size: 12.5px; margin-top: 32px; }
+  footer a { color: var(--sub); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img class="logo" src="assets/nowlabs.png" alt="now,labs">
+    <p>혼자 만들고, 오래 고치는 앱들</p>
+  </header>
+
+  <h2>덤보 시리즈 · 게임</h2>
+
+  <section class="app">
+    <img src="assets/icons/dumbodrop.png" alt="">
+    <div>
+      <h3>덤보 드랍</h3>
+      <p>같은 그림 네 조각을 모으면 펑! 내 사진으로도 퍼즐을 만들어요.</p>
+      <div class="btns">
+        <a href="https://apps.apple.com/kr/app/id6797112599">App Store</a>
+        <a class="play" href="https://play.google.com/store/apps/details?id=com.nekarose.photo_puzzle_game">Google Play</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="app">
+    <img src="assets/icons/dumbojump.png" alt="">
+    <div>
+      <h3>덤보 점프</h3>
+      <p>선을 그으면 발판이 돼요. 덤보와 함께 심해를 탈출해요.</p>
+      <div class="btns">
+        <a href="https://apps.apple.com/kr/app/id6812717941">App Store</a>
+        <a class="play" href="https://play.google.com/store/apps/details?id=com.nekarose.dumbojump">Google Play</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="app">
+    <img src="assets/icons/dumbowords.png" alt="">
+    <div>
+      <h3>덤보의 단어 바다</h3>
+      <p>덤보 문어와 함께 영어·일본어 단어 바다를 헤엄쳐요.</p>
+      <div class="btns">
+        <a href="https://apps.apple.com/kr/app/id6819471139">App Store</a>
+      </div>
+    </div>
+  </section>
+
+  <h2>지금 시리즈 · 생활</h2>
+
+  <section class="app">
+    <img src="assets/icons/parkgolf.png" alt="">
+    <div>
+      <h3>지금, 파크골프</h3>
+      <p>예약이 열리기 10분 전에 알려 드려요. 라운드 기록까지 한 앱에서.</p>
+      <div class="btns">
+        <a href="https://apps.apple.com/kr/app/id6817724680">App Store</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="app">
+    <img src="assets/icons/caffeine.png" alt="">
+    <div>
+      <h3>지금, 카페인</h3>
+      <p>"나 오늘 카페인 얼마나 마셨지?" 카페 메뉴의 카페인·당·칼로리.</p>
+      <div class="btns">
+        <a href="https://apps.apple.com/kr/app/id6785396543">App Store</a>
+        <a class="play" href="https://play.google.com/store/apps/details?id=com.hyein.jigeum_caffeine">Google Play</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="app">
+    <img src="assets/icons/stock.png" alt="">
+    <div>
+      <h3>지금, 주식</h3>
+      <p>감이 아니라 재무제표로 종목을 고르는 스크리닝 앱.</p>
+      <div class="btns">
+        <a href="https://apps.apple.com/kr/app/id6789809860">App Store</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="app">
+    <img src="assets/icons/bid.png" alt="">
+    <div>
+      <h3>지금, 사업소식</h3>
+      <p>국방·공공 조달 입찰 공고와 사업 기회를 손쉽게 확인해요.</p>
+      <div class="btns">
+        <a href="https://apps.apple.com/kr/app/id6795025868">App Store</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <a href="https://www.instagram.com/nowlabs77/">Instagram</a> ·
+    <a href="https://www.threads.com/@hackj12">Threads</a>
+  </footer>
+</main>
+</body>
+</html>
